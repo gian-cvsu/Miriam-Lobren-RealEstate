@@ -93,7 +93,7 @@ To reset the data, delete `backend/urbanscope.db` and restart the server.
 - **Console Navigation & Visuals:** The sidebar contains only Overview, Accounts & Roles, and System Health. Its navigation, icons, KPI tiles, and governance actions use the shared UrbanScope green treatment.
 - **Master Overview:** Access `/pages/superadmin/dashboard.html` for account totals, privileged-role counts, and database storage status across local FastAPI/SQLite and cloud deployments.
 - **Console Sections:** Use **Accounts & Roles** to manage user accounts and access levels, and **System Health** to run database integrity and role-trigger checks. Property listings and client inquiries are handled through the linked Admin Portal.
-- **RBAC Role & Account Management:** Full user account governance (create client/admin accounts, edit full name, email, contact phone, account role `user`/`admin`/`superadmin`, promote/demote permissions, delete non-protected accounts, and reset passwords) synchronized across local SQLite and Supabase Cloud with protected root superadmin credentials.
+- **RBAC Role & Account Management:** Full user account governance (create client/admin accounts, edit full name, email, contact phone, account role `user`/`admin`/`superadmin`, promote/demote permissions, delete non-protected accounts, and a reset passwords) synchronized across local SQLite and Supabase Cloud with protected root superadmin credentials.
 - **System Health:** Run live diagnostics on database storage, foreign-key/schema integrity, role triggers, and API connectivity.
 
 ---
